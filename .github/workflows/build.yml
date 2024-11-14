@@ -1,9 +1,8 @@
 name: CI
 on:
   push:
-    branches-ignore:
-      -data
-      -gh-pages
+    branches:
+      -main
 
 jobs:
   build:
