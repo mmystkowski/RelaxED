@@ -1,7 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ relaxED ]
+    branches-ignore:
+      -data
+      -gh-pages
 
 jobs:
   build:
