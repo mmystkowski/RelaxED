@@ -13,7 +13,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 
 #requirements = python3==3.11.4,hostpython3==3.11.4, kivy, pillow
-requirements = python3,kivy,pillow
+requirements = python3,kivy #pillow
 
 orientation = portrait
 
